@@ -66,7 +66,7 @@ data_action = [
             "Some spells require you to maintain concentration in order to keep their magic active. If you lose concentration, such a spell ends. You lose concentration on a spell if you cast another spell that requires concentration or when you are incapacitated. Each time you take damage, you must make a Constitution saving throw to maintain your concentration. The DC equals 10 or half the damage you take, whichever number is higher."
         ]
     },
-{
+    {
         title: "Climb on",
         icon: "grab",
         subtitle: "Climb onto a creature",
@@ -158,7 +158,7 @@ data_action = [
             "You can use an action or a bonus action to attempt to force your way through a hostile creature's space by overrunning it.",
             "Make a Strength (Athletics) check contested by the hostile creature's Strength (Athletics) check.",
             "If the mover wins, it can move through the hostile creature's space once this turn.",
-            "The mover has advantage on the check if it is larger than the hostile creature, or disadvantage if it is smaller.
+            "The mover has advantage on the check if it is larger than the hostile creature, or disadvantage if it is smaller."
         ]
     },
     {
@@ -171,7 +171,7 @@ data_action = [
             "First, you decide what perceivable circumstance will trigger your reaction.",
             "Then, you choose the action you will take in response to that trigger, or you choose to move up to your speed in response to it.",
             "When the trigger occurs, you can either take your reaction right after the trigger finishes or ignore the trigger.",
-            "When you ready a spell, you cast it as normal but hold its energy, which you release with your reaction when the trigger occurs. To be readied, a spell must have a casting time of 1 action, and holding onto the spell's magic requires concentration"
+            "When you ready a spell, you cast it as normal but hold its energy, which you release with your reaction when the trigger occurs. To be readied, a spell must have a casting time of 1 action, and holding onto the spell's magic requires concentration."
         ]
     },
     {
@@ -191,9 +191,9 @@ data_action = [
         description: "Stop a dying creature from needing to make death saving throws",
         reference: "PHB, pg. 197.",
         bullets: [
-            "Make a Wisdom (Medicine) check with DC 10",
-            "On a success, the creature is stable and no longer needs to make death saving throws",
-            "A stable creature regains 1 hit point after 1d4 hours"
+            "Make a Wisdom (Medicine) check with DC 10.",
+            "On a success, the creature is stable and no longer needs to make death saving throws.",
+            "A stable creature regains 1 hit point after 1d4 hours."
         ]
     },
     {

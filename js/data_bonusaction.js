@@ -43,7 +43,7 @@ data_bonusaction = [
             "You can use an action or a bonus action to attempt to force your way through a hostile creature's space by overrunning it.",
             "Make a Strength (Athletics) check contested by the hostile creature's Strength (Athletics) check.",
             "If the mover wins, it can move through the hostile creature's space once this turn.",
-            "The mover has advantage on the check if it is larger than the hostile creature, or disadvantage if it is smaller.
+            "The mover has advantage on the check if it is larger than the hostile creature, or disadvantage if it is smaller."
         ]
     },
     {
