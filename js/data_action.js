@@ -127,6 +127,17 @@ data_action = [
             "Armor takes several minutes to equip or unequip."
         ]
     },
+        {
+        title: "Drink a Potion",
+        icon: "potion-ball",
+        subtitle: "Includes houserules",
+        description: "Drink or administer a potion",
+        reference: "PHB, pg. 153.",
+        bullets: [
+            "Drinking or administering a potion takes an action.",
+            "House Rule: If a potion restores hitpoints, always take the maximum value. For example, if a potion restores 2d4 + 2 hit points, you regain 10 hit points."
+        ]
+    },
     {
         title: "Hide",
         icon: "hood",
@@ -139,16 +150,6 @@ data_action = [
             "When you try to hide, make a Dexterity (Stealth) check and note the result. Until you are discovered or you stop hiding, that check's total is contested by the Wisdom (Perception) check of any creature that actively searches for signs of your presence.",
             "A creature notices you even if it isn't searching unless your Stealth check is higher than its Passive Perception.",
             "Out of combat, you may also use a Dexterity (Stealth) check for acts like concealing yourself from enemies, slinking past guards, slipping away without being noticed, or sneaking up on someone without being seen or heard."
-        ]
-    },
-    {
-        title: "Search",
-        icon: "magnifying-glass",
-        subtitle: "",
-        description: "Devote your attention to finding something",
-        reference: "PHB, pg. 193.",
-        bullets: [
-            "Depending on the nature of your search, the DM might have you make a Wisdom (Perception) check or an Intelligence (Investigation) check."
         ]
     },
     {
@@ -165,6 +166,28 @@ data_action = [
         ]
     },
     {
+        title: "Search",
+        icon: "magnifying-glass",
+        subtitle: "",
+        description: "Devote your attention to finding something",
+        reference: "PHB, pg. 193.",
+        bullets: [
+            "Depending on the nature of your search, the DM might have you make a Wisdom (Perception) check or an Intelligence (Investigation) check."
+        ]
+    },
+    {
+        title: "Stabilize",
+        icon: "first-aid",
+        subtitle: "Stabilize a dying creature",
+        description: "Stop a dying creature from needing to make death saving throws",
+        reference: "PHB, pg. 197.",
+        bullets: [
+            "Make a Wisdom (Medicine) check with DC 10",
+            "On a success, the creature is stable and no longer needs to make death saving throws",
+            "A stable creature regains 1 hit point after 1d4 hours"
+        ]
+    },
+    {
         title: "Use class feature",
         icon: "embrassed-energy",
         subtitle: "Some features use actions",
@@ -172,18 +195,6 @@ data_action = [
         reference: "See class page for more information.",
         bullets: [
 
-        ]
-    },
-    {
-        title: "Stabilize a creature",
-        icon: "first-aid",
-        subtitle: "Administer first aid to a dying creature",
-        description: "Stop a dying creature from needing to make death saving throws",
-        reference: "PHB, pg. 197.",
-        bullets: [
-            "Make a Wisdom (Medicine) check with DC 10",
-            "On a success, the creature is stable and no longer needs to make death saving throws",
-            "A stable creature regains 1 hit point after 1d4 hours"
         ]
     },
     {

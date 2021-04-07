@@ -14,6 +14,16 @@ data_movement = [
         ]
     },
     {
+        title: "Crawl",
+        icon: "crawl",
+        subtitle: "Cost: 10ft per 5ft",
+        description: "Movement cost: 10ft per 5ft crawled",
+        reference: "PHB, pg. 182.",
+        bullets: [
+
+        ]
+    },
+    {
         title: "Climb",
         icon: "crags",
         subtitle: "Cost: 10ft per 5ft",
@@ -43,16 +53,6 @@ data_movement = [
             "You can drop prone without using any of your speed",
             "To move while prone, you must crawl or use magic such as teleportation",
             "Dropping prone adds the <i>Prone</i> condition (melee attacks against you have advantage, ranged attacks against you have disadvantage, your own attacks have disadvantage)"
-        ]
-    },
-    {
-        title: "Crawl",
-        icon: "crawl",
-        subtitle: "Cost: 10ft per 5ft",
-        description: "Movement cost: 10ft per 5ft crawled",
-        reference: "PHB, pg. 182.",
-        bullets: [
-
         ]
     },
     {
@@ -93,15 +93,6 @@ data_movement = [
         ]
     },
     {
-        title: "Improvise",
-        icon: "juggler",
-        subtitle: "Any stunt not on this list",
-        description: "Perform any movement or stunt you can imagine",
-        bullets: [
-            "When you describe a kind of movement not detailed elsewhere in the rules, the DM tells you whether it is possible and what kind of roll you need to make, if any, to determine success or failure."
-        ]
-    },
-    {
         title: "Difficult terrain",
         icon: "stone-pile",
         subtitle: "Cost modifier: +5ft per 5ft",
@@ -119,6 +110,15 @@ data_movement = [
         bullets: [
             "If you move while grappling another creature, your speed is halved, unless the creature is two or more sizes smaller than you.",
             "See the attack action for how to grapple a creature."
+        ]
+    },
+    {
+        title: "Improvise",
+        icon: "juggler",
+        subtitle: "Any stunt not on this list",
+        description: "Perform any movement or stunt you can imagine",
+        bullets: [
+            "When you describe a kind of movement not detailed elsewhere in the rules, the DM tells you whether it is possible and what kind of roll you need to make, if any, to determine success or failure."
         ]
     }
 ]
