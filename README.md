@@ -1,6 +1,6 @@
 # phdnd-quickref
 
-Quick reference sheet for PHDnD.
+Quick reference sheet for PHDnD. The sheet can be viewed [here](https://cavedann.github.io/phdnd-quickref/quickref.html).
 
 
 # Icons
