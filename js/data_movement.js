@@ -102,6 +102,18 @@ data_movement = [
         ]
     },
     {
+        title: "Falling",
+        icon: "falling",
+        subtitle: "Modifier: 500ft per turn",
+        reference: "XGE, pg. 77.",
+        description: "Descend up to 500ft per turn",
+        bullets: [
+	    "When you start to fall, you immediately descend up to 500 feet.",
+	    "If you're still falling on your next turn, you descend up to 500 feet at the end of that turn. You continue falling until you hit the ground or the fall is halted.",
+	    "If you have a non-zero flying speed, and are falling at the start of your turn, you can spend half your flying speed to counter the fall (as if standing up from the prone condition)."
+        ]
+    },
+    {
         title: "Grapple move",
         icon: "grab",
         subtitle: "Modifier: speed halved",

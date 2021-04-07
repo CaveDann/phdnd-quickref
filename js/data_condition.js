@@ -155,7 +155,8 @@ data_condition = [
         bullets: [
             "Your only movement option is to crawl, unless you stand up.",
             "You have disadvantage on attack rolls.",
-            "Attack rolls against you have advantage if the attacker is within 5 feet of you, otherwise the attack roll has disadvantage."
+            "Attack rolls against you have advantage if the attacker is within 5 feet of you, otherwise the attack roll has disadvantage.", 
+	    "If you are flying, you start to fall and immediately descend up to 500 feet."
         ]
     },
     {
