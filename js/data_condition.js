@@ -140,6 +140,16 @@ data_condition = [
         ]
     },
     {
+        title: "Flying",
+        icon: "feathered-wing",
+        subtitle: "You are flying",
+        reference: "PHB, pg. 191.",
+        description: "You are flying",
+        bullets: [
+            "If you are knocked prone, have your speed reduced to zero, or are otherwise unable to move, you begin to fall, unless you have the ability to hover or are held aloft by magic such as the fly spell."
+        ]
+    },
+    {
         title: "Grappled",
         icon: "grab",
         subtitle: "You are grappled",
@@ -149,16 +159,6 @@ data_condition = [
             "Your speed becomes 0, and you can't benefit from any bonus to your speed.",
             "The condition ends if your grappler is incapacitated.",
             "The condition also ends if you are removed from the reach of your grappler."
-        ]
-    },
-    {
-        title: "Flying",
-        icon: "feathered-wing",
-        subtitle: "You are flying",
-        reference: "PHB, pg. 191.",
-        description: "You are flying",
-        bullets: [
-            "If you are knocked prone, have your speed reduced to zero, or are otherwise unable to move, you begin to fall, unless you have the ability to hover or are held aloft by magic such as the fly spell."
         ]
     },
     {
