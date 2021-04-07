@@ -14,6 +14,19 @@ data_action = [
         ]
     },
     {
+        title: "Disarm",
+        icon: "cut-palm",
+        subtitle: "Special melee attack",
+        description: "Knock a weapon or another item from a target's grasp",
+        reference: "DMG, pg. 271.",
+        bullets: [
+            "House Rule: You can use the <i>Attack</i> action to make a special melee attack, a disarm. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.",
+            "Using a weapon attack, you try to knock a weapon or other item from the target's grasp. Make an attack roll contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check.",
+            "If you succeed, the attack causes no damage or other ill effect, but the target drops the item.",
+            "You have disadvantage on the attack roll if the target is holding the item with two or more hands. The target has advantage on its ability check if it is larger than you, or disadvantage if it is smaller."
+        ]
+    },
+    {
         title: "Grapple",
         icon: "grab",
         subtitle: "Special melee attack",
@@ -31,12 +44,13 @@ data_action = [
         icon: "hand",
         subtitle: "Special melee attack",
         description: "Shove a creature, either to knock it prone or push it away from you",
-        reference: "PHB, pg. 195.",
+        reference: "PHB, pg. 195. & DMG, pg. 272",
         bullets: [
             "Using the <i>Attack</i> action, you can make a special melee attack to shove a creature. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.",
             "The target of your shove must be no more than one size larger than you, and it must be within your reach.",
             "You make a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use).",
-            "If you win the contest, you either knock the target prone or push it 5 feet away from you."
+            "If you win the contest, you either knock the target prone or push it 5 feet away from you.",
+	    "Alternatively, you can push a target to the side rather than away. You have disadvantage on the check. If the check is successful, you move the target 5 feet to a different space within your reach."
         ]
     },
     {
@@ -50,6 +64,21 @@ data_action = [
             "The target of a spell must be within the spell's range. To target something, you must have a clear path to it, so it can't be behind total cover.",
             "Spells with material components do not consume the material unless explicitly stated. Unless the cost of a material is given, you can assume that the cost is negligible and the material is simply available in a component pouch.",
             "Some spells require you to maintain concentration in order to keep their magic active. If you lose concentration, such a spell ends. You lose concentration on a spell if you cast another spell that requires concentration or when you are incapacitated. Each time you take damage, you must make a Constitution saving throw to maintain your concentration. The DC equals 10 or half the damage you take, whichever number is higher."
+        ]
+    },
+{
+        title: "Climb on",
+        icon: "grab",
+        subtitle: "Climb onto a creature",
+        description: "Attempt to climb onto a Huge or Gargantuan creature",
+        reference: "DMG, pg. 271.",
+        bullets: [
+            "A Medium or smaller creature can use an action to attempt to climb on to a Huge or Gargantuan creature.",
+            "Make a Strength (Athletics) or Dexterity (Acrobatics) check contested by the target's Dexterity (Acrobatics) check.",
+            "If you succeed, you move into the target's space and and cling to its body. Whilst in the target's space, you move with the target and have advantage on attack rolls against it. You can move around the larger creature's space, treating it as difficult terrain.",
+            "The larger creature's ability to attack you depends on your location, and is left to DM discretion.",
+	    "The larger creature can attempt to dislodge you - knocking you off, scraping you against a wall, or grabbing and throwing you. The larger creature makes a Strength (Athletics) check contested by your Strength (Athletics) or Dexterity (Acrobatics) check.",
+	    "If the larger creature succeeds, you fall from the creature and land in a space 5 feet from it."
         ]
     },
     {
@@ -94,6 +123,20 @@ data_action = [
         ]
     },
     {
+        title: "Hide",
+        icon: "hood",
+        subtitle: "",
+        description: "Attempt to hide",
+        reference: "PHB, pg. 192.",
+        bullets: [
+            "You can't hide from a creature that can see you. You must have total cover, be in a heavily obscured area, be invisible, or otherwise block the enemy's vision.",
+            "If you make noise (such as shouting a warning or knocking over a vase), you give away your position.",
+            "When you try to hide, make a Dexterity (Stealth) check and note the result. Until you are discovered or you stop hiding, that check's total is contested by the Wisdom (Perception) check of any creature that actively searches for signs of your presence.",
+            "A creature notices you even if it isn't searching unless your Stealth check is higher than its Passive Perception.",
+            "Out of combat, you may also use a Dexterity (Stealth) check for acts like concealing yourself from enemies, slinking past guards, slipping away without being noticed, or sneaking up on someone without being seen or heard."
+        ]
+    },
+    {
         title: "Help",
         icon: "telepathy",
         subtitle: "Grant an ally advantage",
@@ -106,50 +149,16 @@ data_action = [
         ]
     },
     {
-        title: "Use Object",
-        icon: "snatch",
-        subtitle: "Interact, use special abilities",
-        description: "Interact with a second object or use special object abilities",
-        reference: "PHB, pg. 193.",
+        title: "Overrun",
+        icon: "back-forth",
+        subtitle: "Move through hostile creature",
+        description: "Force your way past a hostile creature",
+        reference: "DMG, pg. 272.",
         bullets: [
-            "You can interact with one object for free during your turn (such as drawing a weapon or opening a door). If you want to interact with a second object, use this action.",
-            "When an object requires your action for its use, you also take this action."
-        ]
-    },
-    {
-        title: "Use shield",
-        icon: "round-shield",
-        subtitle: "Equip or unequip a shield",
-        description: "Equip or unequip a shield",
-        reference: "PHB, pgs. 144-146.",
-        bullets: [
-            "A shield always takes an action to equip or unequip.",
-            "Armor takes several minutes to equip or unequip."
-        ]
-    },
-        {
-        title: "Drink a Potion",
-        icon: "potion-ball",
-        subtitle: "Includes houserules",
-        description: "Drink or administer a potion",
-        reference: "PHB, pg. 153.",
-        bullets: [
-            "Drinking or administering a potion takes an action.",
-            "House Rule: If a potion restores hitpoints, always take the maximum value. For example, if a potion restores 2d4 + 2 hit points, you regain 10 hit points."
-        ]
-    },
-    {
-        title: "Hide",
-        icon: "hood",
-        subtitle: "",
-        description: "Attempt to hide",
-        reference: "PHB, pg. 192.",
-        bullets: [
-            "You can't hide from a creature that can see you. You must have total cover, be in a heavily obscured area, be invisible, or otherwise block the enemy's vision.",
-            "If you make noise (such as shouting a warning or knocking over a vase), you give away your position.",
-            "When you try to hide, make a Dexterity (Stealth) check and note the result. Until you are discovered or you stop hiding, that check's total is contested by the Wisdom (Perception) check of any creature that actively searches for signs of your presence.",
-            "A creature notices you even if it isn't searching unless your Stealth check is higher than its Passive Perception.",
-            "Out of combat, you may also use a Dexterity (Stealth) check for acts like concealing yourself from enemies, slinking past guards, slipping away without being noticed, or sneaking up on someone without being seen or heard."
+            "You can use an action or a bonus action to attempt to force your way through a hostile creature's space by overrunning it.",
+            "Make a Strength (Athletics) check contested by the hostile creature's Strength (Athletics) check.",
+            "If the mover wins, it can move through the hostile creature's space once this turn.",
+            "The mover has advantage on the check if it is larger than the hostile creature, or disadvantage if it is smaller.
         ]
     },
     {
@@ -188,6 +197,19 @@ data_action = [
         ]
     },
     {
+        title: "Tumble",
+        icon: "back-forth",
+        subtitle: "Move through hostile creature",
+        description: "Tumble past a hostile creature",
+        reference: "DMG, pg. 272.",
+        bullets: [
+            "You can use an action or a bonus action to attempt to tumble through a hostile creature's space by ducking and weaving.",
+            "Make a Dexterity (Acrobatics) check contested by the hostile creature's Dexterity (Acrobatics) check.",
+            "If the mover wins, it can move through the hostile creature's space once on this turn.",
+            "House Rule: The mover has advantage on the check if it is smaller than the hostile creature, or disadvantage if it is larger."
+        ]
+    },
+    {
         title: "Use class feature",
         icon: "embrassed-energy",
         subtitle: "Some features use actions",
@@ -195,6 +217,39 @@ data_action = [
         reference: "See class page for more information.",
         bullets: [
 
+        ]
+    },
+    {
+        title: "Use Object",
+        icon: "snatch",
+        subtitle: "Interact, use special abilities",
+        description: "Interact with a second object or use special object abilities",
+        reference: "PHB, pg. 193.",
+        bullets: [
+            "You can interact with one object for free during your turn (such as drawing a weapon or opening a door). If you want to interact with a second object, use this action.",
+            "When an object requires your action for its use, you also take this action."
+        ]
+    },
+    {
+        title: "Use shield",
+        icon: "round-shield",
+        subtitle: "Equip or unequip a shield",
+        description: "Equip or unequip a shield",
+        reference: "PHB, pgs. 144-146.",
+        bullets: [
+            "A shield always takes an action to equip or unequip.",
+            "Armor takes several minutes to equip or unequip."
+        ]
+    },
+    {
+        title: "Use a potion",
+        icon: "potion-ball",
+        subtitle: "Drink or administer a potion",
+        description: "Drink or administer a potion",
+        reference: "PHB, pg. 153.",
+        bullets: [
+            "Drinking or administering a potion takes an action.",
+            "House Rule: If a potion restores hitpoints, always take the maximum value. For example, if a potion restores 2d4 + 2 hit points, you regain 10 hit points."
         ]
     },
     {
