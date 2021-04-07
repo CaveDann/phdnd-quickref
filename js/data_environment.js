@@ -1,6 +1,6 @@
 data_environment_obscurance = [
     {
-        title: "Lightly obscured",
+        title: "Lightly Obscured",
         icon: "bleeding-eye",
         subtitle: "Disadvantage on Perception",
         description: "Dim light, patchy fog, moderate foliage",
@@ -10,7 +10,7 @@ data_environment_obscurance = [
         ]
     },
     {
-        title: "Heavily obscured",
+        title: "Heavily Obscured",
         icon: "lightning-tear",
         subtitle: "Effectively blind",
         description: "Darkness, opaque fog, dense foliage",
@@ -23,7 +23,7 @@ data_environment_obscurance = [
 
 data_environment_light = [
     {
-        title: "Bright light",
+        title: "Bright Light",
         icon: "star-pupil",
         subtitle: "Normal vision",
         description: "Bright light lets most creatures see normally",
@@ -33,7 +33,7 @@ data_environment_light = [
         ]
     },
     {
-        title: "Dim light",
+        title: "Dim Light",
         icon: "semi-closed-eye",
         subtitle: "Lightly obscured",
         description: "Dim light, also called shadows",
@@ -95,7 +95,7 @@ data_environment_vision = [
 
 data_environment_cover = [
     {
-        title: "Half cover",
+        title: "Half Cover",
         icon: "broken-shield",
         subtitle: "Low wall, furniture, creatures",
         description: "A target has half cover if an obstacle blocks at least half of its body",
@@ -107,7 +107,7 @@ data_environment_cover = [
         ]
     },
     {
-        title: "Three-quarters cover",
+        title: "Three-quarters Cover",
         icon: "cracked-shield",
         subtitle: "Portcullis, arrow slit",
         description: "A target has three-quarters cover if about three-quarters of it is covered by an obstacle",
@@ -119,7 +119,7 @@ data_environment_cover = [
         ]
     },
     {
-        title: "Full cover",
+        title: "Full Cover",
         icon: "shield",
         subtitle: "Completely concealed",
         description: "A target has total cover if it is completely concealed by an obstacle",

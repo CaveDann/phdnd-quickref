@@ -54,7 +54,7 @@ data_action = [
         ]
     },
     {
-        title: "Cast a spell",
+        title: "Cast a Spell",
         icon: "magic-swirl",
         subtitle: "Cast time of 1 action",
         description: "Cast a spell with a casting time of 1 action",
@@ -67,7 +67,7 @@ data_action = [
         ]
     },
     {
-        title: "Climb on",
+        title: "Climb On",
         icon: "grab",
         subtitle: "Climb onto a creature",
         description: "Attempt to climb onto a Huge or Gargantuan creature",
@@ -210,7 +210,7 @@ data_action = [
         ]
     },
     {
-        title: "Use class feature",
+        title: "Use a Class Feature",
         icon: "embrassed-energy",
         subtitle: "Some features use actions",
         description: "Use a racial or class feature that uses an action",
@@ -220,7 +220,7 @@ data_action = [
         ]
     },
     {
-        title: "Use an object",
+        title: "Use an Object",
         icon: "snatch",
         subtitle: "Interact, use special abilities",
         description: "Interact with a second object or use special object abilities",
@@ -231,7 +231,7 @@ data_action = [
         ]
     },
     {
-        title: "Use a shield",
+        title: "Use a Shield",
         icon: "round-shield",
         subtitle: "Equip or unequip a shield",
         description: "Equip or unequip a shield",
@@ -242,7 +242,7 @@ data_action = [
         ]
     },
     {
-        title: "Use a potion",
+        title: "Use a Potion",
         icon: "potion-ball",
         subtitle: "Drink or administer a potion",
         description: "Drink or administer a potion",

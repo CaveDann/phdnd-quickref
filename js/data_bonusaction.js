@@ -1,6 +1,6 @@
 data_bonusaction = [
     {
-        title: "Offhand attack",
+        title: "Offhand Attack",
         icon: "crossed-swords",
         subtitle: "Use with the Attack action",
         description: "Attack with your off hand",
@@ -13,7 +13,7 @@ data_bonusaction = [
         ]
     },
     {
-        title: "Cast a spell",
+        title: "Cast a Spell",
         icon: "magic-swirl",
         subtitle: "Cast time of 1 bonus action",
         description: "Cast a spell with a casting time of 1 bonus action",
@@ -24,7 +24,7 @@ data_bonusaction = [
         ]
     },
     {
-        title: "Use class feature",
+        title: "Use a Class Feature",
         icon: "embrassed-energy",
         subtitle: "Some features use bonus actions",
         description: "Use a racial or class feature that uses a bonus action",

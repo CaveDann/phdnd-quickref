@@ -44,7 +44,7 @@ data_movement = [
         ]
     },
     {
-        title: "Drop prone",
+        title: "Drop Prone",
         icon: "falling",
         subtitle: "Cost: 0ft",
         description: "Movement cost: 0ft (free)",
@@ -56,7 +56,7 @@ data_movement = [
         ]
     },
     {
-        title: "Stand up",
+        title: "Stand Up",
         icon: "strong",
         subtitle: "Cost: half movement speed",
         description: "Movement cost: half of your speed",
@@ -66,7 +66,7 @@ data_movement = [
         ]
     },
     {
-        title: "High jump",
+        title: "High Jump",
         icon: "wingfoot",
         subtitle: "Cost: 5ft per 5ft",
         description: "Movement cost: 5ft per 5ft jumped",
@@ -80,7 +80,7 @@ data_movement = [
         ]
     },
     {
-        title: "Long jump",
+        title: "Long Jump",
         icon: "wingfoot",
         subtitle: "Cost: 5ft per 5ft",
         description: "Movement cost: 5ft per 5ft jumped",
@@ -93,7 +93,7 @@ data_movement = [
         ]
     },
     {
-        title: "Difficult terrain",
+        title: "Difficult Terrain",
         icon: "stone-pile",
         subtitle: "Cost modifier: +5ft per 5ft",
         reference: "PHB, pg. 182.",
@@ -114,7 +114,7 @@ data_movement = [
 //        ]
 //    },
     {
-        title: "Grapple move",
+        title: "Grapple Move",
         icon: "grab",
         subtitle: "Modifier: speed halved",
         description: "Drag or carry the grappled creature with you",
