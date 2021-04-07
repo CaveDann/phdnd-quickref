@@ -220,7 +220,7 @@ data_action = [
         ]
     },
     {
-        title: "Use Object",
+        title: "Use an object",
         icon: "snatch",
         subtitle: "Interact, use special abilities",
         description: "Interact with a second object or use special object abilities",
@@ -231,7 +231,7 @@ data_action = [
         ]
     },
     {
-        title: "Use shield",
+        title: "Use a shield",
         icon: "round-shield",
         subtitle: "Equip or unequip a shield",
         description: "Equip or unequip a shield",

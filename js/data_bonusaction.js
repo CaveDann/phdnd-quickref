@@ -1,6 +1,6 @@
 data_bonusaction = [
     {
-        title: "Offhand Attack",
+        title: "Offhand attack",
         icon: "crossed-swords",
         subtitle: "Use with the Attack action",
         description: "Attack with your off hand",
