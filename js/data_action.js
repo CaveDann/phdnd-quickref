@@ -155,7 +155,7 @@ data_action = [
         description: "Force your way past a hostile creature",
         reference: "DMG, pg. 272.",
         bullets: [
-            "You can use an action or a bonus action to attempt to force your way through a hostile creature's space by overrunning it.",
+            "You can use an action to attempt to force your way through a hostile creature's space by overrunning it.",
             "Make a Strength (Athletics) check contested by the hostile creature's Strength (Athletics) check.",
             "If the mover wins, it can move through the hostile creature's space once this turn.",
             "The mover has advantage on the check if it is larger than the hostile creature, or disadvantage if it is smaller."
@@ -203,7 +203,7 @@ data_action = [
         description: "Tumble past a hostile creature",
         reference: "DMG, pg. 272.",
         bullets: [
-            "You can use an action or a bonus action to attempt to tumble through a hostile creature's space by ducking and weaving.",
+            "You can use an action to attempt to tumble through a hostile creature's space by ducking and weaving.",
             "Make a Dexterity (Acrobatics) check contested by the hostile creature's Dexterity (Acrobatics) check.",
             "If the mover wins, it can move through the hostile creature's space once on this turn.",
             "House Rule: The mover has advantage on the check if it is smaller than the hostile creature, or disadvantage if it is larger."
