@@ -118,7 +118,7 @@ data_condition = [
     {
         title: "Falling",
         icon: "falling",
-        subtitle: "Modifier: 500ft per turn",
+        subtitle: "You are falling",
         reference: "PHD, pg. 183 | XGE, pg. 77.",
         description: "Descend up to 500ft per turn",
         bullets: [
