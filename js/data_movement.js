@@ -30,7 +30,7 @@ data_movement = [
         description: "Movement cost: 10ft per 5ft climbed",
         reference: "PHB, pg. 182.",
         bullets: [
-            "May involve a Strength (Athletics) check if the climb is difficult"
+            "May involve a Strength (Athletics) check if the climb is difficult."
         ]
     },
     {
@@ -40,7 +40,7 @@ data_movement = [
         description: "Movement cost: 10ft per 5ft swum",
         reference: "PHB, pg. 182.",
         bullets: [
-            "May involve a Strength (Athletics) check if the swim is difficult"
+            "May involve a Strength (Athletics) check if the swim is difficult."
         ]
     },
     {
@@ -50,9 +50,9 @@ data_movement = [
         description: "Movement cost: 0ft (free)",
         reference: "PHB, pgs. 190-191,292.",
         bullets: [
-            "You can drop prone without using any of your speed",
-            "To move while prone, you must crawl or use magic such as teleportation",
-            "Dropping prone adds the <i>Prone</i> condition (melee attacks against you have advantage, ranged attacks against you have disadvantage, your own attacks have disadvantage)"
+            "You can drop prone without using any of your speed.",
+            "To move while prone, you must crawl or use magic such as teleportation.",
+            "Dropping prone adds the <i>Prone</i> condition (melee attacks against you have advantage, ranged attacks against you have disadvantage, your own attacks have disadvantage)."
         ]
     },
     {
@@ -62,7 +62,7 @@ data_movement = [
         description: "Movement cost: half of your speed",
         reference: "PHB, pg. 190-191.",
         bullets: [
-            "You can't stand up if you don't have enough movement left or if your speed is 0"
+            "You can't stand up if you don't have enough movement left or if your speed is 0."
         ]
     },
     {
@@ -87,7 +87,7 @@ data_movement = [
         reference: "PHB, pg. 182.",
         bullets: [
             "You cover a number of feet up to your <b>Strength score</b> if you move at least 10 feet on foot immediately before the jump.",
-            "When you make a standing long jump, you can leap only half that distance",
+            "When you make a standing long jump, you can leap only half that distance.",
             "May involve a DC 10 Strength (Athletics) check to clear a low obstacle (no taller than a quarter of the jump's distance). You hit the obstacle on a failed check.",
             "May involve a DC 10 Dexterity (Acrobatics) check to land on your feet in difficult terrain. You land prone on a failed check."
         ]
