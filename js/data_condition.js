@@ -119,7 +119,7 @@ data_condition = [
         title: "Falling",
         icon: "falling",
         subtitle: "You are falling",
-        reference: "PHD, pg. 183 | XGE, pg. 77.",
+        reference: "PHB, pg. 183 | XGE, pg. 77.",
         description: "Descend up to 500ft per turn",
         bullets: [
             "When you start to fall, you immediately descend up to 500 feet.",
@@ -223,7 +223,8 @@ data_condition = [
         icon: "internal-injury",
         subtitle: "You are paralyzed",
         description: "You can't do anything",
-        bullets: [
+        reference: " ",
+	bullets: [
             "You are incapacitated and can't move or speak.",
             "Attack rolls against you have advantage.",
             "Any attack that hits you is a critical hit if the attacker is within 5 feet of you.",
