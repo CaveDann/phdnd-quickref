@@ -223,7 +223,7 @@ data_condition = [
         icon: "internal-injury",
         subtitle: "You are paralyzed",
         description: "You can't do anything",
-        reference: " ",
+        reference: "PHB, pg. 291.",
 	bullets: [
             "You are incapacitated and can't move or speak.",
             "Attack rolls against you have advantage.",
