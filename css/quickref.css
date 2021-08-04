@@ -166,6 +166,14 @@
     color: ForestGreen;
 }
 
+#section-houserules, #section-houserules .item-icon {
+    background-color: DarkSlateBlue;
+    border-color: DarkSlateBlue;
+}
+#section-houserules .text {
+    color: DarkSlateBlue;
+}
+
 
 /* ------------------------------------------------------------------------- */
 /* Page container */
