@@ -43,6 +43,16 @@ data_houserules = [
         ]
     },
     {
+        title: "Encumbrance",
+        icon: "muscle-up",
+        subtitle: "15x Strength Score",
+        description: "How much you can carry.",
+        reference: "Last Updated: 04/10/2021",
+        bullets: [
+            "I don't think we're currently using the variant encumbrance rules."
+        ]
+    },
+    {
         title: "Errata",
         icon: "bookmarklet",
         subtitle: "When RAW ≠ RAI",
