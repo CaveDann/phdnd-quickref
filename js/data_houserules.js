@@ -72,7 +72,8 @@ data_houserules = [
         bullets: [
             "Feats are enabled."
         ]
-
+    },
+    {
         title: "Long Rest Level-Up",
                 icon: "muscle-up",
                 subtitle: "Rest up, Level up",
@@ -81,7 +82,7 @@ data_houserules = [
                 bullets: [
                     "Whether via XP or Milestone, we only level up on completion of a long rest. This allows us to avoid questions of HP and Spellslots from mid-day level gains."
                 ]
-        },
+    },
     {
         title: "Multiple Ability Checks",
         icon: "drama-masks",
