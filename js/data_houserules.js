@@ -47,9 +47,10 @@ data_houserules = [
         icon: "muscle-up",
         subtitle: "15x Strength Score",
         description: "How much you can carry.",
-        reference: "Last Updated: 04/10/2021",
+        reference: "Last Updated: 18/10/2021",
         bullets: [
-            "I don't think we're currently using the variant encumbrance rules."
+            "I don't think we're currently using the variant encumbrance rules.",
+            "We also don't do a great job tracking inventory. A backpack can only hold 30lbs of gear. We'll continue to be woefully lax on this for the remainder of Tomb."
         ]
     },
     {
@@ -71,7 +72,16 @@ data_houserules = [
         bullets: [
             "Feats are enabled."
         ]
-    },
+
+        title: "Long Rest Level-Up",
+                icon: "muscle-up",
+                subtitle: "Rest up, Level up",
+                description: "Must complete a long rest to level up",
+                reference: "Last Updated: 18/10/2021",
+                bullets: [
+                    "Whether via XP or Milestone, we only level up on completion of a long rest. This allows us to avoid questions of HP and Spellslots from mid-day level gains."
+                ]
+        },
     {
         title: "Multiple Ability Checks",
         icon: "drama-masks",
